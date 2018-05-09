@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+   <Ad>
+      <ImageUrl>BMW.jpg</ImageUrl>
+      <NavigateUrl>https://www.bmwusa.com/</NavigateUrl>
+      <AlternateText>
+         BMW
+      </AlternateText>
+      <Impressions>1</Impressions>
+      <Keyword>BMW</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>bugatti.jpg</ImageUrl>
+      <NavigateUrl>https://www.bugatti.com/home/</NavigateUrl>
+      <AlternateText>Bugatti</AlternateText>
+      <Impressions>1</Impressions>
+      <Keyword>Bugatti</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>Ferrari.jpg</ImageUrl>
+      <NavigateUrl>https://www.ferrari.com/en-US</NavigateUrl>
+      <AlternateText>Ferrari</AlternateText>
+      <Impressions>1</Impressions>
+      <Keyword>Ferrari</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>Ford.jpg</ImageUrl>
+      <NavigateUrl>https://www.ford.com/</NavigateUrl>
+      <AlternateText>Ford</AlternateText>
+      <Impressions>1</Impressions>
+      <Keyword>Ford</Keyword>
+   </Ad>
+</Advertisements>

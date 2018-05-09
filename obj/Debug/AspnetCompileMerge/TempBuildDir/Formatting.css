@@ -1,0 +1,32 @@
+﻿.links {
+    background-color: #FFE658;
+}
+.headerImage {
+    height:100%;
+    background-image: url('HeaderImage.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bgImage {
+
+    background-image: url(bgImage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;       
+    
+}
+.align{
+    text-align:center;
+}
+.content 
+{
+    position:relative;
+    
+}
+.watermark {
+    position: absolute;
+    opacity: 0.1;
+    font-size: 1em;
+    width: auto;        
+}

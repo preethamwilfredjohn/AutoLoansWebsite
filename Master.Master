@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WAD.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>AAL American Auto Loans</title>
+    <link href="Formatting.css" rel="stylesheet" type="text/css" />  
+</head>
+<body>
+    <form id="form1" runat="server">        
+        <div style="margin:0;">                       
+        <table style="width: 100%;">
+            <tr>
+                <td>
+                    <img style="width:100%; height:100%; display:block;" src="Images/HeaderImage.png" /></td>
+            </tr>
+        </table>    
+        </div>            
+        <div style="margin:0;">
+            <asp:ContentPlaceHolder ID="NestedContentPlaceHolder1" runat="server">            
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="links">
+            <asp:ContentPlaceHolder ID="head" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="links" >                                       
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

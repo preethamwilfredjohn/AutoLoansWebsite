@@ -1,0 +1,14 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="NestedMaster.master.cs" Inherits="WAD.NestedMaster" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="NestedContentPlaceHolder1" runat="server">    
+    <div style="margin:0">
+        <asp:ContentPlaceHolder ID ="Header" runat ="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID ="Body" runat ="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div style = "text-align:center">
+            <asp:Button ID="Button1" runat="server" CausesValidation="false" Text="Return to Home Page" OnClick="Button1_Click" BackColor="#FFFF66" Font-Size="Large" Height="53px" Width="360px" />
+    </div>
+</asp:Content>
